@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-    <meta charset="UTF-8">
-
     <head>
-        <title>Some page title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+        <?php wp_head(); ?>
     </head>
 
     <body>
