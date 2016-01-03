@@ -7334,8 +7334,9 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* line 1, sass/_partials/_main.scss */
-p {
-  color: #f00; }
+body {
+  min-height: 2000px;
+  padding-top: 70px; }
 
 /* line 2, sass/_partials/_header.scss */
 header a {

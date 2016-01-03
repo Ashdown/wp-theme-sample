@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-        <?php wp_head(); ?>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <?php wp_head(); ?>
+</head>
 
-    <body>
+<body>
 
-        <header>
-            <ul>
-                <li>Header Item</li>
-                <li>Header Item</li>
-                <li>Header Item</li>
-            </ul>
-        </header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Sample Theme</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Header Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Header Item</a>
+                    </li>
+                    <li>
+                        <a href="#">Header Item</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="container">
