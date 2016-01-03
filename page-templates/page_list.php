@@ -2,8 +2,12 @@
 
 <?php get_header(); ?>
 
-<h1>List Page</h1>
-<p>This is a sample item list page</p>
+<?php while ( have_posts() ) : the_post(); ?>
+
+    <h1><?php the_title(); ?></h1>
+    <p><?php the_content(); ?></p>
+
+<?php endwhile; ?>
 
 <ul>
     <?php wp_list_pages('exclude=10&title_li='); ?>

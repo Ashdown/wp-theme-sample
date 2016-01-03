@@ -11,7 +11,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Sample Theme</a>
+                <a class="navbar-brand" href="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
